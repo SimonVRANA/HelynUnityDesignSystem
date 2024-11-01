@@ -1,16 +1,19 @@
 {
-    "name": "com.helyn.unity.designsystem",
-    "displayName": "Helyn Unity Design System",
-    "unity": "2019.3",
-    "version": "1.0.0",
-    "description": "This is my personal design system to make quick UIs with my colors ans shapes.",
-    "keywords": [
-        "Helyn",
-        "UI",
-        "DesignSystem"
-    ],
-    "repository": {
-        "url": "https://github.com/SimonVRANA/HelynUnityDesignSystem.git/UnityPackages/com.helyn.unity.designsystem",
-        "type": "git"
-    }
+  "name": "com.helyn.unity.designsystem",
+  "displayName": "Helyn Unity Design System",
+  "unity": "2019.3",
+  "version": "1.0.1",
+  "description": "This is my personal design system to make quick UIs with my colors ans shapes.",
+  "keywords": [
+    "Helyn",
+    "UI",
+    "DesignSystem"
+  ],
+  "repository": {
+    "url": "https://github.com/SimonVRANA/HelynUnityDesignSystem.git/UnityPackages/com.helyn.unity.designsystem",
+    "type": "git"
+  },
+  "dependencies": {
+    "com.unity.ugui": "2.0.0"
+  }
 }

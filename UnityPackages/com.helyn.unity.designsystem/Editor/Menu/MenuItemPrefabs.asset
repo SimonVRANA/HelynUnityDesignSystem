@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 732357d9fcad5dd49a062bf41899d1a0, type: 3}
+  m_Name: MenuItemPrefabs
+  m_EditorClassIdentifier: 
+  backgroundPrefab: {fileID: 5226864577705233142, guid: a00f3c29ecd69904a97bf0fc66b48be4, type: 3}
+  textPrefab: {fileID: 1833981167550938040, guid: 9ac4cabd9a1a13c4d949c9d45e2a0056, type: 3}
+  buttonPrefab: {fileID: 6109652749708820347, guid: 8197e357833381b44a8406e4c47836ff, type: 3}
+  toggleButtonPrefab: {fileID: 1288985202859142279, guid: 906156b49d728a548a91358c25729f16, type: 3}
+  inputFieldPrefab: {fileID: 4004128004030829740, guid: 804fb8f64477e4a468c13f19afc1f224, type: 3}
+  sliderPrefab: {fileID: 9184331855206442653, guid: 8942c5791c4a9f74480df78a7fd48542, type: 3}
