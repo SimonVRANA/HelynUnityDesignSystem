@@ -1,3 +1,17 @@
 {
-	"name": "UnityPackagescom.helyn.unity.designsystem.Editor"
+    "name": "UnityPackagescom.helyn.unity.designsystem.Editor",
+    "rootNamespace": "",
+    "references": [
+        "GUID:82371e73c868caf468baa026d3341830",
+        "GUID:6546d7765b4165b40850b3667f981c26"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
 }
