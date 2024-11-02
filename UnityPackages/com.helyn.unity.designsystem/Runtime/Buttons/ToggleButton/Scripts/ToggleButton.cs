@@ -2,6 +2,7 @@
 // Please ask by email (simon.vrana.pro@gmail.com) before reusing for commercial purpose.
 
 using UnityEngine;
+using UnityEngine.Events;
 using UnityEngine.UI;
 
 namespace Helyn.DesignSystem
@@ -17,15 +18,22 @@ namespace Helyn.DesignSystem
 		[SerializeField]
 		private Sprite toggledSprite;
 
+		[SerializeField]
+		private UnityEvent onToggle;
+
 		private bool isToggled = false;
 		public bool IsToggled
 		{
 			get => isToggled;
 			set
 			{
-				isToggled = value;
-				toggleImage.sprite = isToggled ? toggledSprite
-											   : untoggledSprite;
+				if (value != isToggled)
+				{
+					isToggled = value;
+					toggleImage.sprite = isToggled ? toggledSprite
+												   : untoggledSprite;
+					onToggle?.Invoke();
+				}
 			}
 		}
 
