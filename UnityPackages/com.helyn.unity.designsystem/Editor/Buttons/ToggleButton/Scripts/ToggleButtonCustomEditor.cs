@@ -14,6 +14,7 @@ namespace Helyn.DesignSystem
 		private SerializedProperty toggleImage;
 		private SerializedProperty untoggledSprite;
 		private SerializedProperty toggledSprite;
+		private SerializedProperty onToggle;
 
 		protected override void OnEnable()
 		{
@@ -22,6 +23,7 @@ namespace Helyn.DesignSystem
 			toggleImage = serializedObject.FindProperty("toggleImage");
 			untoggledSprite = serializedObject.FindProperty("untoggledSprite");
 			toggledSprite = serializedObject.FindProperty("toggledSprite");
+			onToggle = serializedObject.FindProperty("onToggle");
 		}
 
 		public override void OnInspectorGUI()
@@ -33,6 +35,7 @@ namespace Helyn.DesignSystem
 			EditorGUILayout.ObjectField(toggleImage, typeof(Image));
 			EditorGUILayout.ObjectField(untoggledSprite, typeof(Sprite));
 			EditorGUILayout.ObjectField(toggledSprite, typeof(Sprite));
+			EditorGUILayout.PropertyField(onToggle);
 
 			serializedObject.ApplyModifiedProperties();
 		}
