@@ -18,3 +18,4 @@ MonoBehaviour:
   toggleButtonPrefab: {fileID: 1288985202859142279, guid: 906156b49d728a548a91358c25729f16, type: 3}
   inputFieldPrefab: {fileID: 4004128004030829740, guid: 804fb8f64477e4a468c13f19afc1f224, type: 3}
   sliderPrefab: {fileID: 9184331855206442653, guid: 8942c5791c4a9f74480df78a7fd48542, type: 3}
+  dropdownPrefab: {fileID: 1582388568268889534, guid: acbab964dede84c4cba9ae02dfc9d1b4, type: 3}
